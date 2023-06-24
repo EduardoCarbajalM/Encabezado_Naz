@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "NirmalaS";
+    src: url("https://cdn.website-editor.net/25ac810f916b48a687cc496d2c0accc5/fonts/NirmalaS-795b_400.ttf");
+}
+
+.encabezado {
+    font-family: "NirmalaS", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5px;
+    letter-spacing: 1px;
+}
+
+.avatar {
+    text-align: center;
+}
+
+#Logo {
+    position: relative;
+    height: 14%;
+    width: 12.5%;
+    top: 5%;
+}
+
+.lista_encabezado ul{
+    list-style: none;    
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center; 
+    align-items: center; 
+    padding: 9px 40px 16px;
+    vertical-align: center;
+}
+
+.lista_encabezado ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.linea_vertical {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff6600;
+    content: '|';
+    vertical-align: center;
+}
+
+.lineas_encabezado {
+    border: none;
+    border-top: 2px solid #d75d38;
+    margin: 1% 0 1% 0;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    .encabezado {
+        font-size: 80px; /* Aumentado el tamaño en píxeles */
+    }
+
+    #Logo {
+        width: 100%;
+    }
+
+    .lista_encabezado ul {
+        gap: 20px; /* Aumentado el tamaño en píxeles */
+        padding: 12px 50px 20px; /* Aumentado el tamaño en píxeles */
+    }
+
+    .linea_vertical {
+        font-size: 22px; /* Aumentado el tamaño en píxeles */
+    }
+
+    .lineas_encabezado {
+        border-top: 3px solid #d75d38; /* Aumentado el tamaño en píxeles */
+    }
+}
