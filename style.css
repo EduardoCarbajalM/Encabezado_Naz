@@ -61,7 +61,7 @@
 /* Media Query para dispositivos móviles */
 @media screen and (max-width: 480px) {
     .encabezado {
-        font-size: 80px; /* Aumentado el tamaño en píxeles */
+        font-size: 30px;
     }
 
     #Logo {
@@ -69,15 +69,15 @@
     }
 
     .lista_encabezado ul {
-        gap: 20px; /* Aumentado el tamaño en píxeles */
-        padding: 12px 50px 20px; /* Aumentado el tamaño en píxeles */
+        gap: 30px;
+        padding: 30px 80px 40px;
     }
 
     .linea_vertical {
-        font-size: 22px; /* Aumentado el tamaño en píxeles */
+        font-size: 32px;
     }
 
     .lineas_encabezado {
-        border-top: 3px solid #d75d38; /* Aumentado el tamaño en píxeles */
+        border-top: 5px solid #d75d38;
     }
 }
